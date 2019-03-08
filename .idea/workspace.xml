@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c8d3c1-d1b9-4dc2-94d7-30d2f5684334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleRide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleRide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleRide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -98,7 +96,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552034824915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552045253563" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -226,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bicycles/BicycleRide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>

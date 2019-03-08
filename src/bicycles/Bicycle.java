@@ -6,7 +6,7 @@ public class Bicycle {
     private int speed = 0;
 
     //Define a method called acceleration
-    public void acceleration(){
+    public void accelerate(){
         speed += 5;
     }
 

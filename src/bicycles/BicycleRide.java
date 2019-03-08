@@ -2,16 +2,32 @@ package bicycles;
 
 public class BicycleRide
 {
-    //Define a constructor that takes in Bicyle class as an Object
+    //define a field/instance of Bicycle class
+    private final Bicycle bicycle;
+
+    /*
+    Define a constructor to use ti be able to create an instance of Bicycle class.
+    that take bicycle class and parameter and
+    pass it an an argument inside Object of BicycleRide.
+    call that class with ride method.
+     */
+
     public BicycleRide(Bicycle bicycle){
-
-        BicycleRide bicycleRide = new BicycleRide(bicycle);
-        bicycleRide.ride();
+        this.bicycle = bicycle;
+        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
+        bikeRide.ride();
     }
 
+    //define a method ride to be able to access other methods in Bicycle class
     private void ride() {
-    }
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.accelerate();
 
+    }
 }
 
 
