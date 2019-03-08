@@ -21,17 +21,17 @@ public class BicycleRide
     //define a method ride to be able to access other methods in Bicycle class
     public void ride() {
         this.bicycle.accelerate();
-//        this.bicycle.accelerate();
-//        this.bicycle.accelerate();
-//        this.bicycle.brake();
-//        this.bicycle.brake();
-//        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.accelerate();
     }
 
 
     //define a method to get
-    public int getSpeed (){
-        return this.bicycle.accelerate();
+    public int getCurrentSpeed (){
+        return this.bicycle.currentSpeed();
     }
 }
 

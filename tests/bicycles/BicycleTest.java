@@ -11,7 +11,9 @@ public class BicycleTest {
     public void shouldAccelerate(){
         Bicycle bicycle = new Bicycle();
         BicycleRide bike = new BicycleRide(bicycle);
+        bike.ride();
 
-        assertEquals(5, bike.getSpeed());
+
+        assertEquals(14, bike.getCurrentSpeed());
     }
 }
