@@ -6,8 +6,9 @@ public class Bicycle {
     private int speed = 0;
 
     //Define a method called acceleration
-    public void accelerate(){
+    public int accelerate(){
         speed += 5;
+        return speed;
     }
 
     //Define a method called acceleration
@@ -17,5 +18,4 @@ public class Bicycle {
     public int currentSpeed(){ return speed; }
     //Define a method called acceleration
     public void stop(){ speed = speed + 0; }
-
 }

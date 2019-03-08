@@ -14,19 +14,24 @@ public class BicycleRide
 
     public BicycleRide(Bicycle bicycle){
         this.bicycle = bicycle;
-        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
-        bikeRide.ride();
+//        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
+//        bikeRide.ride();
     }
 
     //define a method ride to be able to access other methods in Bicycle class
-    private void ride() {
+    public void ride() {
         this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.brake();
-        this.bicycle.brake();
-        this.bicycle.accelerate();
+//        this.bicycle.accelerate();
+//        this.bicycle.accelerate();
+//        this.bicycle.brake();
+//        this.bicycle.brake();
+//        this.bicycle.accelerate();
+    }
 
+
+    //define a method to get
+    public int getSpeed (){
+        return this.bicycle.accelerate();
     }
 }
 
