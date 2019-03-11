@@ -1,10 +1,11 @@
 package bicycles.models;
 
+//import bicycles.Bicycle;
+
 import bicycles.Bicycle;
 
-public class RoadBike implements Bicycle {
+public class RoadBike extends BicycleBase implements Bicycle {
 
-     int speed = 0;
 
     @Override
     public void accelerate() {
@@ -16,15 +17,5 @@ public class RoadBike implements Bicycle {
         speed -=  4;
     }
 
-    @Override
-    public int currentSpeed() {
-        return speed;
-    }
-
-    @Override
-    public void stop() {
-       speed = 0;
-    }
-
-
+    
 }
