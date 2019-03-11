@@ -1,19 +1,22 @@
-package models;
+package bicycles.models;
 
 import bicycles.Bicycle;
 
-public class RoadBike implements Bicycle {
+public class MountainBike implements Bicycle {
 
-     int speed = 0;
+    int speed = 0;
 
     @Override
     public void accelerate() {
-        speed += 11;
+
+        speed += 5;
+
     }
 
     @Override
     public void brake() {
-        speed -=  4;
+        speed -= 3;
+
     }
 
     @Override
@@ -23,8 +26,7 @@ public class RoadBike implements Bicycle {
 
     @Override
     public void stop() {
-       speed = 0;
+
+        speed = 0;
     }
-
-
 }

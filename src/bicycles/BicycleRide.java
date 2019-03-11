@@ -1,6 +1,6 @@
 package bicycles;
 
-//import models.RoadBike;
+//import bicycles.models.RoadBike;
 
 public class BicycleRide
 {
