@@ -1,8 +1,8 @@
 package bicycles;
 
-import bicycles.models.RoadBike;
+//import models.RoadBike;
 
-public class BicycleRide extends RoadBike
+public class BicycleRide
 {
     //define a field/instance of Bicycle class
     private final Bicycle bicycle;
