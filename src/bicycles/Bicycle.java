@@ -5,7 +5,7 @@ public interface Bicycle {
 //  define a variable called speed
     //Define a method called acceleration
 //    public void accelerate(){ speed += 5;}
-    void accelerate();
+   void accelerate();
 
 //    Define a method called acceleration
 //    public void brake(){speed -= 3;}

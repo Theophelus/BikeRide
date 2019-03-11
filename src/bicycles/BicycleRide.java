@@ -1,10 +1,11 @@
 package bicycles;
 
-public class BicycleRide
+import bicycles.models.RoadBike;
+
+public class BicycleRide extends RoadBike
 {
     //define a field/instance of Bicycle class
     private final Bicycle bicycle;
-
     /*
     Define a constructor to use ti be able to create an instance of Bicycle class.
     that take bicycle class and parameter and
@@ -12,7 +13,7 @@ public class BicycleRide
     call that class with ride method.
      */
 
-    public BicycleRide (Bicycle bicycle){
+    public BicycleRide(Bicycle bicycle){
         this.bicycle = bicycle;
 //        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
 //        bikeRide.ride();
