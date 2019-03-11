@@ -157,7 +157,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552317670455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552317884023" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -189,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BicycleTest.TestingRoadBikeClass">
+  <component name="RunManager" selected="JUnit.BicycleTest">
     <configuration name="BicycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -271,8 +271,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BicycleTest.TestingRoadBikeClass" />
         <item itemvalue="JUnit.BicycleTest" />
+        <item itemvalue="JUnit.BicycleTest.TestingRoadBikeClass" />
         <item itemvalue="JUnit.BicycleTest.TestingMountainBike" />
         <item itemvalue="JUnit.BicycleTest.shouldAccelerate" />
         <item itemvalue="JUnit.BicycleTest.shouldAccelerate (1)" />
