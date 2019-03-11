@@ -3,11 +3,10 @@ package bicycles.models;
 import bicycles.Bicycle;
 
 public abstract class BicycleBase implements Bicycle {
-    private int speed = 0;
+    private int speed;
 
     protected void changeSpeed(int speed){
-        this.speed += speed;
-
+        this.speed = speed;
     }
 
     @Override
