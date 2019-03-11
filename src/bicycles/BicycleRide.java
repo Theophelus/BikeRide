@@ -12,7 +12,7 @@ public class BicycleRide
     call that class with ride method.
      */
 
-    public BicycleRide  (Bicycle bicycle){
+    public BicycleRide (Bicycle bicycle){
         this.bicycle = bicycle;
 //        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
 //        bikeRide.ride();
