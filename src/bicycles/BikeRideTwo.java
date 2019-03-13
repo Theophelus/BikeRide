@@ -13,10 +13,19 @@ public class BikeRideTwo implements BikeRide  {
     @Override
     public void ride() {
         this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.accelerate();
+        this.bicycle.brake();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.brake();
+
     }
 
     @Override
     public int getCurrentSpeed() {
-        return 0;
+        return this.bicycle.currentSpeed();
     }
 }
