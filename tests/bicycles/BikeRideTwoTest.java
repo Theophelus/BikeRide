@@ -17,7 +17,7 @@ public class BikeRideTwoTest {
 
         assertEquals(54, bike.getCurrentSpeed());
     }
-    
+
     @Test
     public void TestingMountainBikeClass(){
         MountainBike bicycle = new MountainBike();
