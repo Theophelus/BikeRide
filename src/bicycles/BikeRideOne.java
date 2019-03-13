@@ -1,21 +1,19 @@
 package bicycles;
 
-//import bicycles.models.RoadBike;
-
-public class BicycleRide
-{
+public class BikeRideOne implements BikeRide {
     //define a field/instance of Bicycle class
     private final Bicycle bicycle;
+
     /*
     Define a constructor to use ti be able to create an instance of Bicycle class.
     that take bicycle class and parameter and
-    pass it an an argument inside Object of BicycleRide.
+    pass it an an argument inside Object of BikeRide.
     call that class with ride method.
      */
 
-    public BicycleRide(Bicycle bicycle){
+    public BikeRideOne(Bicycle bicycle){
         this.bicycle = bicycle;
-//        BicycleRide bikeRide = new BicycleRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
+//        BikeRide bikeRide = new BikeRide(bicycle);// pass bicycle instance as s argument in Bicycle constructor
 //        bikeRide.ride();
     }
 
@@ -34,7 +32,5 @@ public class BicycleRide
     public int getCurrentSpeed (){
         return this.bicycle.currentSpeed();
     }
+
 }
-
-
-
