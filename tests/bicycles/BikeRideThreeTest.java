@@ -5,41 +5,36 @@ import bicycles.models.RoadBike;
 import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-public class BikeRideTwoTest {
+
+public class BikeRideThreeTest {
 
     @Test
     public void TestingRoadBikeClass(){
         RoadBike bicycle = new RoadBike();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
-
+        BikeRideThree bike = new BikeRideThree(bicycle);
         bike.ride();
-        System.out.println("Current Speed Of Road Bike Is" + " " + bike.getCurrentSpeed());
+        System.out.println("Current Speed Of Road Bike is" + " " + bike.getCurrentSpeed());
 
-        assertEquals(54, bike.getCurrentSpeed());
+        assertEquals(42, bike.getCurrentSpeed());
     }
-    
     @Test
-    public void TestingMountainBikeClass(){
+    public void TestingMountainBike(){
         MountainBike bicycle = new MountainBike();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
-
+        BikeRideThree bike  =  new BikeRideThree(bicycle);
         bike.ride();
+
         System.out.println("Current Speed Of Mountain Bike Is" + " " + bike.getCurrentSpeed());
 
-        assertEquals(21, bike.getCurrentSpeed());
+        assertEquals(12, bike.getCurrentSpeed());
     }
-
     @Test
-    public void TestingTandemBikeClass(){
+    public void TestingTandemBikeSpeed(){
         Tandem bicycle = new Tandem();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
+        BikeRideThree bike  = new BikeRideThree(bicycle);
 
         bike.ride();
         System.out.println("Current Speed Of Tandem Bike Is" + " " + bike.getCurrentSpeed());
-
-        assertEquals(51, bike.getCurrentSpeed());
+        assertEquals(30,  bike.getCurrentSpeed());
     }
-
-
-
 }
+
