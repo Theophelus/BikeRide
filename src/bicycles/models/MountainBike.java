@@ -1,18 +1,17 @@
 package bicycles.models;
 
-import bicycles.Bicycle;
 
-public class MountainBike extends BicycleBase {
+public class MountainBike extends BicycleBase { //Inherits all methods and properties for BicycleBase
 
-    int speed = 0;
+//    int speed = 0;
 
     @Override
     public void accelerate() {
-        this.changeSpeed(speed += 5);
+        this.changeSpeed(5);
     }
 
     @Override
     public void brake() {
-        this.changeSpeed(speed -= 3);
+        this.changeSpeed(-3);
     }
 }
