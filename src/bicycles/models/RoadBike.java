@@ -7,7 +7,6 @@ public class RoadBike extends BicycleBase { //Inherits all methods and propertie
     public void accelerate() {
         this.changeSpeed(11);
     }
-
     @Override
     public void brake() {
         this.changeSpeed(-4);
