@@ -11,11 +11,10 @@ public class BicycleSpecTest {
         // RoadBike
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4);
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
-        BikeRide bikeRide = new BikeRideOne(bicycle);
+        BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
-        System.out.println(bikeRide.getCurrentSpeed());
-//        assertEquals(bikeRide.getCurrentSpeed(), 43);
+//        System.out.println(bikeRide);
     }
 
     @Test
