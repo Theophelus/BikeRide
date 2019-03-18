@@ -4,8 +4,9 @@ import bicycles.BicycleType;
 
 public class Tandem extends BicycleBase {
 
+
     @Override
-    public BicycleType getBicycleType() {
+    public BicycleType bicycle() {
         return BicycleType.Tandem;
     }
 

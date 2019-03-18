@@ -9,6 +9,11 @@ public class MountainBike extends BicycleBase { //Inherits all methods and prope
 
 
     @Override
+    public BicycleType bicycle() {
+        return BicycleType.MountainBike;
+    }
+
+    @Override
     public void accelerate() {
         this.changeSpeed(5);
     }
@@ -18,8 +23,4 @@ public class MountainBike extends BicycleBase { //Inherits all methods and prope
         this.changeSpeed(-3);
     }
 
-    @Override
-    public BicycleType getBicycleType() {
-        return BicycleType.MountainBike;
-    }
 }

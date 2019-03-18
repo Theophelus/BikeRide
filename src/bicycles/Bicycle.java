@@ -2,7 +2,7 @@ package bicycles;
 
 public interface Bicycle {
 
-    BicycleType getBicycleType();
+    BicycleType bicycle();
     void accelerate();
     void brake();
     int currentSpeed();

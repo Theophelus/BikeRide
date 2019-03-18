@@ -9,22 +9,25 @@ public class BicycleFromSpec extends BicycleBase {
 
     //Define BicycleFromSpec constructor and pass BicycleSpecification and an Argument
     public BicycleFromSpec(BicycleSpecification bikeSpecs){
+
         this.bikeSpecs = bikeSpecs;
     }
 
+
     @Override
-    public BicycleType getBicycleType() {
+    public BicycleType bicycle() {
         return this.bikeSpecs.getBicycleType();
     }
 
     @Override
     public void accelerate() {
-        this.bikeSpecs.getAccelerationSpeed();
+        changeSpeed(this.bikeSpecs.getAccelerationSpeed());
+        //        bikeSpecs.getAccelerationSpeed();
     }
 
     @Override
     public void brake() {
-        this.bikeSpecs.getBrake();
+        changeSpeed(this.bikeSpecs.getBrake());
 
     }
 
