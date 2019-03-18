@@ -11,20 +11,20 @@ public class BicycleSpecification {
     private int brake;
 
     //define a constructor to be able to call instance of BicycleSpecs
-   public BicycleSpecification(int accelerationSpeed, int brake, BicycleType bicycle){
+   public BicycleSpecification(int accelerationSpeed, int brake, BicycleType bicycleType){
        this.accelerationSpeed = accelerationSpeed;
        this.brake = brake;
-       this.bicycleType = bicycle;
+       this.bicycleType = bicycleType;
     }
 
-    public BicycleType getBicycleType() {
-        return bicycleType;
-    }
+    //defining a get method for enum.
+    public BicycleType getBicycleType() { return bicycleType; }
 
     //Define two getter method for acceleration and bake
     public int getAccelerationSpeed() {
         return accelerationSpeed;
     }
+
 
     public int getBrake() {
         return brake;

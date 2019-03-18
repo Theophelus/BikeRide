@@ -1,6 +1,13 @@
 package bicycles.models;
 
+import bicycles.BicycleType;
+
 public class Tandem extends BicycleBase {
+
+    @Override
+    public BicycleType getBicycleType() {
+        return BicycleType.Tandem;
+    }
 
     @Override
     public void accelerate() {

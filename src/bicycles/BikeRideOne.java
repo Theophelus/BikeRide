@@ -27,7 +27,6 @@ public class BikeRideOne implements BikeRide {
         this.bicycle.accelerate();
     }
 
-
     //define a method to get
     public int getCurrentSpeed (){
         return this.bicycle.currentSpeed();

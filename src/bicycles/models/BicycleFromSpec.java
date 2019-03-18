@@ -1,5 +1,7 @@
 package bicycles.models;
 
+import bicycles.BicycleType;
+
 public class BicycleFromSpec extends BicycleBase {
 
 
@@ -7,8 +9,12 @@ public class BicycleFromSpec extends BicycleBase {
 
     //Define BicycleFromSpec constructor and pass BicycleSpecification and an Argument
     public BicycleFromSpec(BicycleSpecification bikeSpecs){
-
         this.bikeSpecs = bikeSpecs;
+    }
+
+    @Override
+    public BicycleType getBicycleType() {
+        return this.bikeSpecs.getBicycleType();
     }
 
     @Override
@@ -21,4 +27,6 @@ public class BicycleFromSpec extends BicycleBase {
         this.bikeSpecs.getBrake();
 
     }
+
+
 }

@@ -18,4 +18,5 @@ public abstract class BicycleBase implements Bicycle {
     public void stop() {
         speed = 0;
     }
+
 }
