@@ -35,5 +35,27 @@ public class FunRide {
         else
             System.out.println("bicycle Not Accepted");
     }
-    
+
+    public int getCountForType(BicycleType bicycleType){
+        /*
+    Define method called getCountforType
+    that take in BicycleType and parameter
+    Define a counter variable to count each bike
+    use a forEach loop to loop through the list of Bicycle Objects
+    check Bicycle list == bicycleType if true increment the counter by 1
+     */
+        for (Bicycle bike: bicycles) {
+            if (bike.bicycle() == bicycleType) {
+                //increment the counter
+                count+= 1;
+            }
+        }
+        return count;
+    }
+
+    //Define a Getter Method to return the size() of the list Of Bicycles
+    public int getEnteredCount(){
+        return bicycles.size();
+    }
 }
+
