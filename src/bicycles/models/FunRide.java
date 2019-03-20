@@ -29,11 +29,12 @@ public class FunRide {
         else print "Bicycle Not accepted
          */
         if (maxNumOfBikes > bicycles.size()) {
+
             bicycles.add(bicycle);
-            System.out.println(bicycles.size() + "Bicycle Accept");
+            System.out.println("Bicycle" + " " + bicycles.size() + " " +  "Bicycle Accept");
         }
         else
-            System.out.println("bicycle Not Accepted");
+            System.out.println("Fun Ride Is Full No More Bikes Are Accepted");
     }
 
     public int getCountForType(BicycleType bicycleType){
