@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c8d3c1-d1b9-4dc2-94d7-30d2f5684334" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bicycles/models/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/FunRide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/bicycles/FunRideTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/FunRideTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/bicycles/FunRideTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="242">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +181,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553091829383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553092405608" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -214,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunRideTests.TestingRoadBikeThroughFunRide">
+  <component name="RunManager" selected="JUnit.FunRideTests.TestingMountainBikeThroughFunRide">
     <configuration name="BicycleSpecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -246,22 +245,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BicycleSpecTest.TandemBikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleSpecTest" />
-      <option name="METHOD_NAME" value="TandemBikeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FunRideTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -273,6 +256,22 @@
       <option name="PACKAGE_NAME" value="bicycles" />
       <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunRideTests.TestingMountainBikeThroughFunRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTests" />
+      <option name="METHOD_NAME" value="TestingMountainBikeThroughFunRide" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -295,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunRideTests.TestingMountainBikeThroughFunRide" />
         <item itemvalue="JUnit.FunRideTests.TestingRoadBikeThroughFunRide" />
         <item itemvalue="JUnit.FunRideTests" />
         <item itemvalue="JUnit.BicycleSpecTest" />
         <item itemvalue="JUnit.BicycleSpecTest.RoadBikeTest" />
-        <item itemvalue="JUnit.BicycleSpecTest.TandemBikeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,12 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 14m 31s.xml">
-      <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 17m 23s.xml">
-      <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 18m 18s.xml">
       <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
     </history-entry>
@@ -345,6 +338,12 @@
       <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 22m 27s.xml">
+      <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 23m 19s.xml">
+      <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunRideTests_TestingRoadBikeThroughFunRide - 2019.03.20 at 16h 23m 54s.xml">
       <configuration name="FunRideTests.TestingRoadBikeThroughFunRide" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -581,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/FunRideTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="242">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -40,14 +40,15 @@ public class FunRideTests {
         //Mountain Bike
 
         FunRide funRide = new FunRide(2);
-        BicycleSpecification roadBikeSpecs = new BicycleSpecification(11, -4, BicycleType.RoadBike);
-        Bicycle bicycle = new BicycleFromSpec(roadBikeSpecs);
-        Bicycle bicycle2 = new BicycleFromSpec(roadBikeSpecs);
+        BicycleSpecification mountainBikeSpecs = new BicycleSpecification(11, -4, BicycleType.MountainBike);
+        Bicycle MountainBike = new BicycleFromSpec(mountainBikeSpecs );
+        Bicycle MountainBike2 = new BicycleFromSpec(mountainBikeSpecs);
 
-        funRide.Accept(bicycle);
-        funRide.Accept(bicycle2);
+        funRide.Accept(MountainBike);
+        funRide.Accept(MountainBike2);
 
-        assertEquals(2, funRide.getEnteredCount());
+
+        assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.MountainBike));
     }
 
     @Test
@@ -55,14 +56,18 @@ public class FunRideTests {
 
         //Tandem Bike
 
-        FunRide funRide = new FunRide(2);
-        BicycleSpecification roadBikeSpecs = new BicycleSpecification(11, -4, BicycleType.RoadBike);
-        Bicycle bicycle = new BicycleFromSpec(roadBikeSpecs);
-        Bicycle bicycle2 = new BicycleFromSpec(roadBikeSpecs);
+        FunRide funRide = new FunRide(4);
+        BicycleSpecification TandemBikeSpecs = new BicycleSpecification(11, -4, BicycleType.Tandem);
+        Bicycle tandem = new BicycleFromSpec(TandemBikeSpecs );
+        Bicycle tandem2 = new BicycleFromSpec(TandemBikeSpecs );
+        Bicycle tandem3 = new BicycleFromSpec(TandemBikeSpecs );
+        Bicycle tandem4 = new BicycleFromSpec(TandemBikeSpecs );
 
-        funRide.Accept(bicycle);
-        funRide.Accept(bicycle2);
+        funRide.Accept(tandem);
+        funRide.Accept(tandem2);
+        funRide.Accept(tandem3);
+        funRide.Accept(tandem4);
 
-        assertEquals(2, funRide.getEnteredCount());
+        assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.Tandem));
     }
 }
