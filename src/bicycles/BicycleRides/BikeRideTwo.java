@@ -1,6 +1,9 @@
-package bicycles;
+package bicycles.BicycleRides;
 
-public class BikeRideTwo implements BikeRide  {
+import bicycles.Bicycle;
+import bicycles.BikeRide;
+
+public class BikeRideTwo implements BikeRide {
 
     //Define an instance of Bicycle interface
     private final Bicycle bicycle;

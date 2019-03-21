@@ -1,4 +1,7 @@
-package bicycles;
+package bicycles.BicycleRides;
+
+import bicycles.Bicycle;
+import bicycles.BikeRide;
 
 public class BikeRideOne implements BikeRide {
     //define a field/instance of Bicycle class
