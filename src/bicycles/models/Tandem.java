@@ -1,5 +1,6 @@
 package bicycles.models;
 
+import bicycles.BicycleBase;
 import bicycles.BicycleType;
 
 public class Tandem extends BicycleBase {

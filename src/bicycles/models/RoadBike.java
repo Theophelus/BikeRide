@@ -2,6 +2,7 @@ package bicycles.models;
 
 //import bicycles.Bicycle;
 
+import bicycles.BicycleBase;
 import bicycles.BicycleType;
 
 public class RoadBike extends BicycleBase { //Inherits all methods and properties for BicycleBase
