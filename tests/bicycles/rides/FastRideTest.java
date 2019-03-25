@@ -1,44 +1,43 @@
 package bicycles.rides;
 
-import bicycles.rides.BikeRideTwo;
 import bicycles.models.MountainBike;
 import bicycles.models.RoadBike;
 import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-public class BikeRideTwoTest {
+public class FastRideTest {
 
     @Test
     public void TestingMountainBikeClass(){
         MountainBike bicycle = new MountainBike();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
+        FastRide bike = new FastRide(bicycle);
 
         bike.ride();
         System.out.println("Current Speed Of Mountain Bike Is" + " " + bike.getCurrentSpeed());
 
-        assertEquals(21, bike.getCurrentSpeed());
+        assertEquals(36, bike.getCurrentSpeed());
     }
 
     @Test
     public void TestingRoadBikeClass(){
         RoadBike bicycle = new RoadBike();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
+        FastRide bike = new FastRide(bicycle);
 
         bike.ride();
         System.out.println("Current Speed Of Road Bike Is" + " " + bike.getCurrentSpeed());
 
-        assertEquals(54, bike.getCurrentSpeed());
+        assertEquals(87, bike.getCurrentSpeed());
     }
 
     @Test
     public void TestingTandemBikeClass(){
         Tandem bicycle = new Tandem();
-        BikeRideTwo bike = new BikeRideTwo(bicycle);
+        FastRide bike = new FastRide(bicycle);
 
         bike.ride();
         System.out.println("Current Speed Of Tandem Bike Is" + " " + bike.getCurrentSpeed());
 
-        assertEquals(51, bike.getCurrentSpeed());
+        assertEquals(87, bike.getCurrentSpeed());
     }
 
 
