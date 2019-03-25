@@ -1,6 +1,6 @@
-package bicycles;
+package bicycles.rides;
 
-import bicycles.BicycleRides.BikeRideTwo;
+import bicycles.rides.BikeRideTwo;
 import bicycles.models.MountainBike;
 import bicycles.models.RoadBike;
 import bicycles.models.Tandem;

@@ -1,8 +1,10 @@
-package bicycles;
+package bicycles.specification;
 
-import bicycles.BicycleRides.BikeRideOne;
-import bicycles.BicycleSpecifications.BicycleFromSpec;
-import bicycles.BicycleSpecifications.BicycleSpecification;
+import bicycles.Bicycle;
+import bicycles.BicycleType;
+import bicycles.rides.BikeRideOne;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BicycleSpecTest {
@@ -21,9 +23,6 @@ public class BicycleSpecTest {
         System.out.println("Current Speed of Road Bike is" + " " +  bike.getCurrentSpeed());
 
         assertEquals(36, bike.getCurrentSpeed());
-
-
-
     }
 
     @Test
@@ -31,8 +30,8 @@ public class BicycleSpecTest {
 
         // Mountain Bike
 
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
-        Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
+        Bicycle bicycle = new BicycleFromSpec(mountainBikeSpec);
         BikeRideOne bike = new BikeRideOne(bicycle);
 
         bike.ride();
@@ -49,8 +48,8 @@ public class BicycleSpecTest {
 
         // Mountain Bike
 
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
-        Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
+        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
+        Bicycle bicycle = new BicycleFromSpec(tandemBikeSpec);
         BikeRideOne bike = new BikeRideOne(bicycle);
 
         bike.ride();

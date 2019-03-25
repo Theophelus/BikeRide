@@ -1,4 +1,4 @@
-package bicycles.BicycleRides;
+package bicycles.rides;
 
 import bicycles.Bicycle;
 import bicycles.BicycleType;
@@ -53,7 +53,6 @@ public class FunRide {
         }
         return count;
     }
-
     //Define a Getter Method to return the size() of the list Of Bicycles
     public int getEnteredCount(){
         return bicycles.size();

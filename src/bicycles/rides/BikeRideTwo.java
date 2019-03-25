@@ -1,17 +1,16 @@
-package bicycles.BicycleRides;
+package bicycles.rides;
 
 import bicycles.Bicycle;
 import bicycles.BikeRide;
 
-public class BikeRideThree implements BikeRide {
+public class BikeRideTwo implements BikeRide {
+
     //Define an instance of Bicycle interface
-
     private final Bicycle bicycle;
+    //Define a constructor that will take Bicycle interface and a parameter
 
-    //Define an constructor for BikeRideThree
-    public BikeRideThree(Bicycle bicycle){
+    public BikeRideTwo(Bicycle bicycle){
         this.bicycle = bicycle;
-
     }
 
     @Override
@@ -20,14 +19,12 @@ public class BikeRideThree implements BikeRide {
         this.bicycle.brake();
         this.bicycle.accelerate();
         this.bicycle.brake();
-        this.bicycle.brake();
-        this.bicycle.brake();
-        this.bicycle.brake();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.brake();
+
     }
 
     @Override

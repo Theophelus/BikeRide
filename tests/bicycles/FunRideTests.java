@@ -1,8 +1,8 @@
 package bicycles;
 
-import bicycles.BicycleSpecifications.BicycleFromSpec;
-import bicycles.BicycleSpecifications.BicycleSpecification;
-import bicycles.BicycleRides.FunRide;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
+import bicycles.rides.FunRide;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -39,7 +39,7 @@ public class FunRideTests {
         //Mountain Bike
 
         FunRide funRide = new FunRide(2);
-        BicycleSpecification mountainBikeSpecs = new BicycleSpecification(11, -4, BicycleType.MountainBike);
+        BicycleSpecification mountainBikeSpecs = new BicycleSpecification(5, -3, BicycleType.MountainBike);
         Bicycle MountainBike = new BicycleFromSpec(mountainBikeSpecs );
         Bicycle MountainBike2 = new BicycleFromSpec(mountainBikeSpecs);
 
@@ -56,7 +56,7 @@ public class FunRideTests {
         //Tandem Bike
 
         FunRide funRide = new FunRide(4);
-        BicycleSpecification TandemBikeSpecs = new BicycleSpecification(11, -4, BicycleType.Tandem);
+        BicycleSpecification TandemBikeSpecs = new BicycleSpecification(12, -7, BicycleType.Tandem);
         Bicycle tandem = new BicycleFromSpec(TandemBikeSpecs );
         Bicycle tandem2 = new BicycleFromSpec(TandemBikeSpecs );
         Bicycle tandem3 = new BicycleFromSpec(TandemBikeSpecs );
