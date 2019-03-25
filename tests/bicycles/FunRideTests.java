@@ -23,11 +23,11 @@ public class FunRideTests {
         Bicycle bicycle5 = new BicycleFromSpec(roadBikeSpecs);
         Bicycle bicycle6 = new BicycleFromSpec(roadBikeSpecs);
 
-        funRide.Accept(bicycle);
-        funRide.Accept(bicycle2);
-        funRide.Accept(bicycle3);
-        funRide.Accept(bicycle4);
-        funRide.Accept(bicycle5);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle2);
+        funRide.accept(bicycle3);
+        funRide.accept(bicycle4);
+        funRide.accept(bicycle5);
 //        funRide.Accept(bicycle6);
 
         assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.RoadBike));
@@ -43,8 +43,8 @@ public class FunRideTests {
         Bicycle MountainBike = new BicycleFromSpec(mountainBikeSpecs );
         Bicycle MountainBike2 = new BicycleFromSpec(mountainBikeSpecs);
 
-        funRide.Accept(MountainBike);
-        funRide.Accept(MountainBike2);
+        funRide.accept(MountainBike);
+        funRide.accept(MountainBike2);
 
 
         assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.MountainBike));
@@ -62,10 +62,10 @@ public class FunRideTests {
         Bicycle tandem3 = new BicycleFromSpec(TandemBikeSpecs );
         Bicycle tandem4 = new BicycleFromSpec(TandemBikeSpecs );
 
-        funRide.Accept(tandem);
-        funRide.Accept(tandem2);
-        funRide.Accept(tandem3);
-        funRide.Accept(tandem4);
+        funRide.accept(tandem);
+        funRide.accept(tandem2);
+        funRide.accept(tandem3);
+        funRide.accept(tandem4);
 
         assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.Tandem));
     }

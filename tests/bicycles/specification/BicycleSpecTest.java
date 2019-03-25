@@ -15,6 +15,7 @@ public class BicycleSpecTest {
         // RoadBike
 
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        roadBikeSpec.getAccelerationSpeed();
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOne bike = new BikeRideOne(bicycle);
 

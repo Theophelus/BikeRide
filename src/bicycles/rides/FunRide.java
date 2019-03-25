@@ -22,7 +22,7 @@ public class FunRide {
     }
 
     //Define accept method here.
-    public void Accept(Bicycle bicycle){
+    public void accept(Bicycle bicycle){
         /*Check if the maxNumberOfBikes is greater than the number length of Bicycle.
         if true add BICYCLE AS ARGUMENT to the BICYCLE LIST and
         print "Bicycle accepted"
