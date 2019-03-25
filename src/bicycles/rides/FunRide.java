@@ -41,7 +41,6 @@ public class FunRide {
         /*
     Define method called getCountforType
     that take in BicycleType and parameter
-    Define a counter variable to count each bike
     use a forEach loop to loop through the list of Bicycle Objects
     check Bicycle list == bicycleType if true increment the counter by 1
      */
