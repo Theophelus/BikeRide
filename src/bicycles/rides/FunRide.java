@@ -20,7 +20,6 @@ public class FunRide {
         this.maxNumOfBikes = maxNumOfBikes;
 
     }
-
     //Define accept method here.
     public void accept(Bicycle bicycle){
         /*Check if the maxNumberOfBikes is greater than the number length of Bicycle.
