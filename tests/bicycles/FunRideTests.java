@@ -10,7 +10,7 @@ public class FunRideTests {
 
 
     @Test
-    public void TestingRoadBikeThroughFunRide(){
+    public void testingRoadBikeThroughFunRide(){
 
         //Road Bike
 
@@ -34,7 +34,7 @@ public class FunRideTests {
     }
 
     @Test
-    public void TestingMountainBikeThroughFunRide(){
+    public void testingMountainBikeThroughFunRide(){
 
         //Mountain Bike
 
@@ -51,7 +51,7 @@ public class FunRideTests {
     }
 
     @Test
-    public void TestingTandemBikeThroughFunRide(){
+    public void testingTandemBikeThroughFunRide(){
 
         //Tandem Bike
 
