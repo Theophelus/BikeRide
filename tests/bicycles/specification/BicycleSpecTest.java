@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BicycleSpecTest {
 
     @Test
-    public void RoadBikeTest(){
+    public void roadBikeTest(){
 
         // RoadBike
 
@@ -21,7 +21,7 @@ public class BicycleSpecTest {
     }
 
     @Test
-    public void MountainBikeTest(){
+    public void rountainBikeTest(){
 
         // Mountain Bike
 
@@ -32,7 +32,7 @@ public class BicycleSpecTest {
     }
 
     @Test
-    public void TandemBikeTest(){
+    public void tandemBikeTest(){
 
         // Mountain Bike
 
