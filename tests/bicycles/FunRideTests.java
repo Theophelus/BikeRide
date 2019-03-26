@@ -28,7 +28,7 @@ public class FunRideTests {
         funRide.accept(bicycle3);
         funRide.accept(bicycle4);
         funRide.accept(bicycle5);
-//        funRide.Accept(bicycle6);
+        funRide.accept(bicycle6);
 
         assertEquals(funRide.getEnteredCount(), funRide.getCountForType(BicycleType.RoadBike));
     }
