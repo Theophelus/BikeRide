@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BicycleRideOneTest {
 
     @Test
-    public void TestingRoadBikeClass(){
+    public void testingRoadBikeClass(){
 
         //Road Bike
 
@@ -22,7 +22,7 @@ public class BicycleRideOneTest {
         assertEquals(36, bike.getCurrentSpeed());
     }
     @Test
-    public void TestingMountainBike(){
+    public void testingMountainBike(){
 
         //Mountain Bike
 
@@ -32,7 +32,7 @@ public class BicycleRideOneTest {
         assertEquals(14, bike.getCurrentSpeed());
     }
     @Test
-    public void TestingTandemBike(){
+    public void testingTandemBike(){
 
         //Tandem Bike
 
