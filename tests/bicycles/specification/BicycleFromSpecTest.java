@@ -56,9 +56,16 @@ public class BicycleFromSpecTest {
 
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
         Bicycle bicycle = new BicycleFromSpec(tandemBikeSpec);
-        BikeRideOne bike = new BikeRideOne(bicycle);
-        bike.ride();
-        assertEquals(34, bike.getCurrentSpeed());
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.brake();
+        bicycle.brake();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.brake();
+
+        assertEquals(39, bicycle.currentSpeed());
 
     }
 
