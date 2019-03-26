@@ -35,9 +35,16 @@ public class BicycleFromSpecTest {
 
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
         Bicycle bicycle = new BicycleFromSpec(mountainBikeSpec);
-        BikeRideOne bike = new BikeRideOne(bicycle);
-        bike.ride();
-        assertEquals(14, bike.getCurrentSpeed());
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.brake();
+        bicycle.brake();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.brake();
+
+        assertEquals(16, bicycle.currentSpeed());
 
 
     }
