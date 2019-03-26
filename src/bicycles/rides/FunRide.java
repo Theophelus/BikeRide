@@ -13,7 +13,7 @@ public class FunRide {
 
     //Define a variable to store maxNumberOfBikes and the counter
     private int maxNumOfBikes;
-    public int count;
+    private int count;
 
     //Define a constructor that take maximumNumber as a parameter
     public FunRide( int maxNumOfBikes){
