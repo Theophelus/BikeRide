@@ -46,7 +46,6 @@ public class BicycleFromSpecTest {
 
         assertEquals(16, bicycle.currentSpeed());
 
-
     }
 
     @Test

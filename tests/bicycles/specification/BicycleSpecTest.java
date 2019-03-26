@@ -15,9 +15,9 @@ public class BicycleSpecTest {
         // RoadBike
 
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
-        System.out.println(roadBikeSpec.getAccelerationSpeed());
-        System.out.println(roadBikeSpec.getBrake());
-        System.out.println(roadBikeSpec.getBicycleType());
+        assertEquals(11, roadBikeSpec.getAccelerationSpeed());
+        assertEquals(-4, roadBikeSpec.getBrake());
+        assertEquals(roadBikeSpec.getBicycleType(), BicycleType.RoadBike);
     }
 
     @Test
@@ -26,11 +26,9 @@ public class BicycleSpecTest {
         // Mountain Bike
 
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MountainBike);
-        System.out.println(mountainBikeSpec.getAccelerationSpeed());
-        System.out.println(mountainBikeSpec.getBrake());
-        System.out.println(mountainBikeSpec.getBicycleType());
-
-
+        assertEquals(5, mountainBikeSpec.getAccelerationSpeed());
+        assertEquals(-3, mountainBikeSpec.getBrake());
+        assertEquals(mountainBikeSpec.getBicycleType(), BicycleType.MountainBike);
     }
 
     @Test
@@ -39,9 +37,9 @@ public class BicycleSpecTest {
         // Mountain Bike
 
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
-        System.out.println(tandemBikeSpec.getAccelerationSpeed());
-        System.out.println(tandemBikeSpec.getBrake());
-        System.out.println(tandemBikeSpec.getBicycleType());
+        assertEquals(12, tandemBikeSpec.getAccelerationSpeed());
+        assertEquals(-7, tandemBikeSpec.getBrake());
+        assertEquals(tandemBikeSpec.getBicycleType(), BicycleType.Tandem);
 
     }
 }
