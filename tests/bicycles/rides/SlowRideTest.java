@@ -10,30 +10,32 @@ public class SlowRideTest {
 
     @Test
     public void TestingRoadBikeClass(){
+
+        //Road Bike
+
         RoadBike bicycle = new RoadBike();
         SlowRide bike = new SlowRide(bicycle);
         bike.ride();
-        System.out.println("Current Speed Of Road Bike is" + " " + bike.getCurrentSpeed());
-
         assertEquals(42, bike.getCurrentSpeed());
     }
     @Test
     public void TestingMountainBike(){
+
+        //Mountain Bike
+
         MountainBike bicycle = new MountainBike();
         SlowRide bike  =  new SlowRide(bicycle);
         bike.ride();
-
-        System.out.println("Current Speed Of Mountain Bike Is" + " " + bike.getCurrentSpeed());
-
         assertEquals(12, bike.getCurrentSpeed());
     }
     @Test
     public void TestingTandemBikeSpeed(){
+
+        //Tandem Bike
+
         Tandem bicycle = new Tandem();
         SlowRide bike  = new SlowRide(bicycle);
-
         bike.ride();
-        System.out.println("Current Speed Of Tandem Bike Is" + " " + bike.getCurrentSpeed());
         assertEquals(30,  bike.getCurrentSpeed());
     }
 }
