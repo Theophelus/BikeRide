@@ -37,7 +37,7 @@ public class FunRide {
     }
 
     public int getCountForType(BicycleType bicycleType){
-        int count = 0;
+       int count = 0;
         /*
     Define method called getCountforType
     that take in BicycleType and parameter
